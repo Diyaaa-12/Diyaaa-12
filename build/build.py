@@ -100,6 +100,7 @@ CSS = """
 .contrib-item{display:flex;align-items:center;gap:12px;font-size:13px;color:var(--fg-muted);line-height:1.4;}
 .contrib-item::before{content:'';flex-shrink:0;width:6px;height:6px;border-radius:50%;background:var(--accent);}
 .contrib-item strong{color:var(--fg);font-weight:500;}
+.contrib-item code{font-family:var(--f-mono);font-size:12px;}
 .section-head{font-family:var(--f-display);font-size:38px;font-weight:400;letter-spacing:-0.02em;line-height:1.1;margin-bottom:20px;text-wrap:balance;}
 .section-head em{font-style:italic;color:var(--accent);}
 .about{margin-bottom:48px;}
@@ -201,8 +202,8 @@ def fragments(cal):
 <div class="contrib-item"><span><strong>fastapi-agent-blueprint</strong> — middleware tests</span></div>
 <div class="contrib-item"><span><strong>meridian</strong> — Tailwind v4 migration + vault actions</span></div>
 <div class="contrib-item"><span><strong>Argus</strong> — Trivy &amp; Grype ingestion adapters</span></div>
-<div class="contrib-item"><span><strong>pocket_pixel</strong> — cookie-based auth</span></div>
-<div class="contrib-item"><span><strong>formbricks</strong> — randomise question order</span></div></div></div></div>
+<div class="contrib-item"><span><strong>city2graph</strong> — deprecation path for <code>as_nx</code></span></div>
+<div class="contrib-item"><span><strong>safedump</strong> — <code>watch()</code> crash monitoring</span></div></div></div></div>
 <div class="heatmap-wrap"><div class="heatmap-header"><h2 class="heatmap-title">A year of building.</h2></div>
 <div class="heatmap-grid">{grid}</div>
 <div class="heatmap-stats">

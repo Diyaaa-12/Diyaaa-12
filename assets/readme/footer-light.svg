@@ -52,6 +52,7 @@
 .contrib-item{display:flex;align-items:center;gap:12px;font-size:13px;color:var(--fg-muted);line-height:1.4;}
 .contrib-item::before{content:'';flex-shrink:0;width:6px;height:6px;border-radius:50%;background:var(--accent);}
 .contrib-item strong{color:var(--fg);font-weight:500;}
+.contrib-item code{font-family:var(--f-mono);font-size:12px;}
 .section-head{font-family:var(--f-display);font-size:38px;font-weight:400;letter-spacing:-0.02em;line-height:1.1;margin-bottom:20px;text-wrap:balance;}
 .section-head em{font-style:italic;color:var(--accent);}
 .about{margin-bottom:48px;}
